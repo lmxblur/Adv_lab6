@@ -30,5 +30,6 @@ knapsack_dynamic <- function(x,W){
       small_w <- small_w - weight[i-1]
     }
   }
+  output$elements <- which(weight%in%output$elements)
   print(output)
 } 
