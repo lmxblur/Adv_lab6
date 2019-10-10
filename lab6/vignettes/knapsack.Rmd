@@ -1,0 +1,24 @@
+---
+title: "knapsack"
+author: "Group 19"
+date: "10/10/2019"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{knapsack}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
+```
+
+## Package lab6
+This is the package contain three different functions for solving what is called the knapsack problem.
+
+## Install package
+```{r }
+devtools::install_github("lmxblur/Adv_lab6", subdir="lab6")
+```
+
