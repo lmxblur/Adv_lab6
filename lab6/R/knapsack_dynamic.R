@@ -1,3 +1,9 @@
+#' Dynamic programming of knapsack problem
+#'
+#' @param x A dataframe that contains weights and values.
+#' @param W A numer representing the limited weight.
+#' @description A programme that solve the knapsack problem using dynamic programming.
+#' @references \url{https://en.wikipedia.org/wiki/Knapsack_problem}
 knapsack_dynamic <- function(x,W){
   stopifnot(is.data.frame(x))
   stopifnot(is.numeric(W))
