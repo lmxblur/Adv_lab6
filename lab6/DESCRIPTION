@@ -10,3 +10,4 @@ License: MIT License+ file LICENSE
 Encoding: UTF-8
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
+RoxygenNote: 6.1.1
