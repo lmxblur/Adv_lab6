@@ -1,3 +1,13 @@
+#' Brute_force_knapsack
+#'
+#' @param x A data frame that represents the wights and the values of each item.
+#' @param  W A number that represents the total weight .
+#' @param  parallel A logical value that indicate if you want to use parallel .
+#' @return A list with the optimum value and the number of each item.
+#' @references \url{https://en.wikipedia.org/wiki/Knapsack_problem}
+#' @examples
+#' brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500, parallel=TRUE)
+#' brute_force_knapsack(x = knapsack_objects[1:12,], W = 3500)
 brute_force_knapsack <- function(x, W, parallel=FALSE){
   
   if (!is.atomic(W) && length(W) != 1L) 
