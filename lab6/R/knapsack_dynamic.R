@@ -7,6 +7,7 @@
 knapsack_dynamic <- function(x,W){
   stopifnot(is.data.frame(x))
   stopifnot(is.numeric(W))
+  stopifnot(W>0)
   value <- x$v
   weight <- x$w
   row_num <-nrow(x)
@@ -37,5 +38,5 @@ knapsack_dynamic <- function(x,W){
     }
   }
   output$elements <- which(weight%in%output$elements)
-  print(output)
+  return(output)
 } 
