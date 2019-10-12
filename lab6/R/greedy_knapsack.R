@@ -2,7 +2,6 @@
 #'
 #' @param x A data frame that represents the wights and the values of each item.
 #' @param  W A number that represents the total weight .
-#' @param  parallel A logical value that indicate if you want to use parallel .
 #' @return A list with the optimum value and the number of each item.
 #' @references \url{https://en.wikipedia.org/wiki/Knapsack_problem}
 greedy_knapsack <- function(x, W){
