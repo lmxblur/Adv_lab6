@@ -9,7 +9,7 @@ brute_force_knapsack <- function(x, W, parallel=FALSE){
   
   if (!is.atomic(W) && length(W) != 1L) 
     stop("W should be a scalar number")
-  if (W<=0 && W == Inf) 
+  if (W<=0 || W == Inf) 
     stop("W should be a positive number")
   if(!all(is.data.frame(x), 
           ncol(x) == 2,
