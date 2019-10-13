@@ -99,6 +99,8 @@ If parallel=FALSE it takes 33.02 seconds.
 
 If parallel=TRUE it takes 30.56 seconds.
 
+A microbenchmark example is presented in the readme file.
+
 
 
 

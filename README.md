@@ -5,3 +5,10 @@
 A collaborative work of Group 19.**
   * Dimitriadis Spyridon - spydi472
   * Mengxin Liu - menli358
+  
+## Microbenckmark Example
+Comparison between parallel and non-parallel brute_force_knapsack method using microbenchmark package with times=20.
+| Method | Minimum Time | Maximum Time | Median | Mean |
+| --- | --- | --- | --- | --- |
+| Parallel | 7.098s | 8.054s | 7.487s | 7.558s |
+| Non-Parallel | 9.845s | 11.846s | 10.916s | 10.916s |
