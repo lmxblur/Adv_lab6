@@ -67,8 +67,7 @@ It takes 0.25 seconds.
 
 ### Profile your code and optimize your code Question: What performance gain could you get by trying to improving your code?
 
-
-
+In brute_force_knapsack with parallel=FALSE we replaced the for loop with the sapply function and the time for calculating the result has been reduced.
 
 
 
