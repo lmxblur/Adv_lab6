@@ -83,7 +83,9 @@ system.time(brute_force_knapsack(x = knapsack_objects[1:16,], W = 3500, parallel
 For small dataframes we do not gain better performance but if we take a bigger dataset the parallel brute force search is way better
 
 For x = knapsack_objects[1:16,]
+
 If parallel=FALSE it takes 0.46 seconds.
+
 If parallel=TRUE it takes 2.07 seconds.
 
 
@@ -93,7 +95,9 @@ system.time(brute_force_knapsack(x = knapsack_objects[1:22,], W = 3500, parallel
 ```
 
 BUT for x = knapsack_objects[1:22,]
+
 If parallel=FALSE it takes 33.02 seconds.
+
 If parallel=TRUE it takes 30.56 seconds.
 
 
